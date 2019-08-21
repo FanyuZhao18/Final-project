@@ -1,6 +1,7 @@
-# this script is to build oligomers with different chain length and orientation in stk, built in Jelfs' group
-# details of stk can be found in https://github.com/lukasturcani/stk
-# surface area is calculated using Freesasa: https://freesasa.github.io/
+# This script is to build oligomers with different chain length and orientation in stk, built in Jelfs' group
+# Details of stk can be found in https://github.com/lukasturcani/stk
+# This script can only be applied in previous versions of stk
+# Surface area is calculated using Freesasa: https://freesasa.github.io/
 
 from rdkit import Chem
 from rdkit.Chem import Descriptors
